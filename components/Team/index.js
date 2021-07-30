@@ -1,0 +1,65 @@
+import React from "react";
+import Image from "next/image";
+import styles from "../../styles/team.module.scss";
+import { team } from "../variables";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/swiper.min.css";
+import "swiper/components/navigation/navigation.min.css";
+
+// import Swiper core and required modules
+import SwiperCore, { Autoplay, Navigation } from "swiper/core";
+
+// install Swiper modules
+SwiperCore.use([Autoplay, Navigation]);
+
+const Team = () => {
+	return (
+		<>
+			<section className={styles.container}>
+				<h1>Nosso time</h1>
+				<div className={styles.swipercontainer}>
+					<Swiper
+						slidesPerView={3}
+						spaceBetween={1}
+						navigation={true}
+						grabCursor={true}
+						breakpoints={{
+							"@0.00": {
+								slidesPerView: 1,
+								spaceBetween: 10,
+							},
+							"@0.75": {
+								slidesPerView: 2,
+								spaceBetween: 20,
+							},
+							"@1.00": {
+								slidesPerView: 3,
+								spaceBetween: 40,
+							},
+							"@1.50": {
+								slidesPerView: 4,
+								spaceBetween: 50,
+							},
+						}}
+						className={styles.mySwiper}
+					>
+						{team.map((member) => (
+							<SwiperSlide key={member.id}>
+								<div className={styles.member}>
+									<Image src={member.picture} width={130} height={130} />
+									<p className={styles.picture}>{member.name}</p>
+									<p className={styles.occupation}>{member.occupation}</p>
+								</div>
+							</SwiperSlide>
+						))}
+					</Swiper>
+				</div>
+			</section>
+		</>
+	);
+};
+
+export default Team;
