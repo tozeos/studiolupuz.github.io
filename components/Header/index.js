@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../../styles/header.module.scss";
 import lupuzLogo from "../../public/logo.png";
 
@@ -9,13 +10,26 @@ const Header = () => {
 			<nav className={styles.navbar}>
 				<ul>
 					<li>
-						<a href="/">Link 1</a>
+						<Link href="/" passHref>
+							<a target="_blank" rel="noopener noreferrer nofollow">
+								Link 1
+							</a>
+						</Link>
 					</li>
 					<li>
-						<a href="/">Link 2</a>
+						<Link href="/" passHref>
+							<a target="_blank" rel="noopener noreferrer nofollow">
+								Link 2
+							</a>
+						</Link>
 					</li>
 					<li>
-						<a href="/">Link 3</a>
+						<Link href="/" passHref>
+							<a target="_blank" rel="noopener noreferrer nofollow">
+								{" "}
+								Link 3
+							</a>
+						</Link>
 					</li>
 				</ul>
 			</nav>

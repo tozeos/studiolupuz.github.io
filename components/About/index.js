@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../../styles/about.module.scss";
 import lupo from "../../public/lupo.png";
 
@@ -19,13 +20,25 @@ const About = () => {
 
 				<ul className={styles.social}>
 					<li>
-						<a href="/">Twitter</a>
+						<Link href="/" passHref>
+							<a target="_blank" rel="noopener noreferrer nofollow">
+								Twitter
+							</a>
+						</Link>
 					</li>
 					<li>
-						<a href="/">Discord</a>
+						<Link href="/" passHref>
+							<a target="_blank" rel="noopener noreferrer nofollow">
+								Discord
+							</a>
+						</Link>
 					</li>
 					<li>
-						<a href="/">Instagram</a>
+						<Link href="/" passHref>
+							<a target="_blank" rel="noopener noreferrer nofollow">
+								Instagram
+							</a>
+						</Link>
 					</li>
 				</ul>
 			</div>
