@@ -136,3 +136,21 @@ export const dates = [
 		description: "Visual novel launch day",
 	},
 ];
+
+export const arts = [
+	{
+		id: 0,
+		alt: "Arte do Lupo utilizando um notebook.",
+		credit: "@Thorkinn",
+		origin: "twitter",
+		link: "https://lupuz.netlify.app/img/E50KUhfWYAIbW4e.jfif",
+	},
+
+	{
+		id: 1,
+		alt: "Arte do Lupo utilizando um notebook 2.",
+		credit: "@Thorkinno",
+		origin: "twittero",
+		link: "https://lupuz.netlify.app/img/E50KUhfWYAIbW4e.jfif",
+	},
+];

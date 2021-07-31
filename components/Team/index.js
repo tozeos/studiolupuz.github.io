@@ -23,7 +23,7 @@ const Team = () => {
 				<div className={styles.swipercontainer}>
 					<Swiper
 						slidesPerView={3}
-						spaceBetween={1}
+						spaceBetween={0}
 						navigation={true}
 						grabCursor={true}
 						breakpoints={{
@@ -41,7 +41,7 @@ const Team = () => {
 							},
 							"@1.50": {
 								slidesPerView: 4,
-								spaceBetween: 50,
+								spaceBetween: 0,
 							},
 						}}
 						className={styles.mySwiper}
@@ -49,8 +49,11 @@ const Team = () => {
 						{team.map((member) => (
 							<SwiperSlide key={member.id}>
 								<div className={styles.member}>
-									<Image src={member.picture} width={130} height={130} />
-									<p className={styles.picture}>{member.name}</p>
+									<div
+										className={styles.profile}
+										style={{ backgroundImage: `url(${member.picture})` }}
+									/>
+									<p className={styles.text}>{member.name}</p>
 									<p className={styles.occupation}>{member.occupation}</p>
 								</div>
 							</SwiperSlide>

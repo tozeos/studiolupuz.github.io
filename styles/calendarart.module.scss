@@ -6,9 +6,9 @@
 	display: flex;
 	background-color: $white;
 
-	align-items: center;
-	justify-content: flex-start; //Center
-	gap: 0 10vw;
+	align-items: stretch;
+	flex-wrap: wrap;
+	gap: 5%;
 
 	@media (max-width: 1076px) {
 		padding: 3rem;
@@ -32,10 +32,6 @@
 	text-transform: uppercase;
 	font-family: "Poppins", sans-serif;
 	opacity: 0.9;
-
-	@media (max-width: 470px) {
-		font-size: 2.3rem;
-	}
 }
 
 .calendar {
@@ -81,5 +77,45 @@
 				background-color: rgb(228, 160, 59);
 			}
 		}
+	}
+}
+
+.swipercontainer {
+	width: 60%;
+
+	@media (max-width: 768px) {
+		width: 100%;
+	}
+}
+
+.mySwiper {
+	border-radius: 5px;
+	border: 2px solid $blue;
+	box-sizing: content-box;
+	background-color: $blue;
+	cursor: grab;
+}
+
+.artBackground {
+	background-size: cover;
+	background-position: center;
+	height: 60vh;
+
+	@media (max-width: 320px) {
+		height: 30vh;
+	}
+
+	@media (max-width: 425px) {
+		height: 40vh;
+	}
+}
+
+.credit {
+	background-color: $blue;
+	padding: 0.5rem;
+	color: white;
+
+	@media (max-width: 425px) {
+		font-size: 0.9rem;
 	}
 }
