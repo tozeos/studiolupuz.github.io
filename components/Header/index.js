@@ -26,7 +26,6 @@ const Header = () => {
 					<li>
 						<Link href="/" passHref>
 							<a target="_blank" rel="noopener noreferrer nofollow">
-								{" "}
 								Link 3
 							</a>
 						</Link>

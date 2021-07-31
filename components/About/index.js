@@ -8,7 +8,7 @@ const About = () => {
 	return (
 		<section className={styles.container}>
 			<div className={styles.text}>
-				<h1>About Lupuz</h1>
+				<h1>About Studio Lupuz</h1>
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Id commodi
 					maiores tenetur in velit minima rem ad deleniti nisi est totam ex
@@ -18,7 +18,7 @@ const About = () => {
 					blanditiis cumque deleniti id! Atque.
 				</p>
 
-				<ul className={styles.social}>
+				{/* <ul className={styles.social}>
 					<li>
 						<Link href="/" passHref>
 							<a target="_blank" rel="noopener noreferrer nofollow">
@@ -40,7 +40,7 @@ const About = () => {
 							</a>
 						</Link>
 					</li>
-				</ul>
+				</ul> */}
 			</div>
 			<div className={styles.lupoContainer}>
 				<Image src={lupo} alt="Mascote Lupo" />

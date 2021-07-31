@@ -2,6 +2,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 import About from "../components/About";
 import Team from "../components/Team";
+import CalendarArt from "../components/CalendarArt";
 
 export default function Home() {
 	return (
@@ -13,6 +14,7 @@ export default function Home() {
 			</Head>
 			<Header />
 			<About />
+			<CalendarArt />
 			<Team />
 		</div>
 	);

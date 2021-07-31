@@ -1,7 +1,10 @@
 @import "../styles/variables";
 
 .navbar {
-	background-color: $blue;
+	background-color: $blue2;
+	z-index: 12;
+	position: sticky;
+	top: 0;
 
 	ul {
 		display: flex;
@@ -19,6 +22,8 @@
 
 		li > a {
 			text-decoration: none;
+			font-family: "Poppins", sans-serif;
+			text-transform: uppercase;
 			color: $white;
 			padding: 0.7rem 0;
 
@@ -34,7 +39,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: #28547d;
+	background-color: $blue;
+	//background-image: url("https://source.unsplash.com/featured/?{wolf}");
+	//background-size: cover;
+	//background-position: center;
 
 	img {
 		width: 20rem;
