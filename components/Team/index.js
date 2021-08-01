@@ -1,7 +1,9 @@
 import React from "react";
-import Image from "next/image";
 import styles from "../../styles/team.module.scss";
 import { team } from "../variables";
+
+const defaultpfp =
+	"https://i.pinimg.com/474x/9b/47/a0/9b47a023caf29f113237d61170f34ad9.jpg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -51,7 +53,11 @@ const Team = () => {
 								<div className={styles.member}>
 									<div
 										className={styles.profile}
-										style={{ backgroundImage: `url(${member.picture})` }}
+										style={{
+											backgroundImage: `url(${
+												member.picture == "" ? defaultpfp : member.picture
+											})`,
+										}}
 									/>
 									<p className={styles.text}>{member.name}</p>
 									<p className={styles.occupation}>{member.occupation}</p>

@@ -3,91 +3,91 @@ export const team = [
 		id: 0,
 		name: "Fossilus",
 		occupation: "Artista",
-		picture: "https://lupuz.netlify.app/img/pfp.png",
+		picture: "",
 	},
 
 	{
 		id: 1,
 		name: "Vini",
 		occupation: "Artista",
-		picture: "https://lupuz.netlify.app/img/pfp.png",
+		picture: "/vini.png",
 	},
 
 	{
 		id: 2,
 		name: "Blank",
 		occupation: "Artista",
-		picture: "https://lupuz.netlify.app/img/pfp.png",
+		picture: "",
 	},
 
 	{
 		id: 3,
 		name: "Thorkinn",
 		occupation: "Artista/Escritor",
-		picture: "https://lupuz.netlify.app/img/pfp.png",
+		picture: "",
 	},
 
 	{
 		id: 4,
 		name: "Vh",
 		occupation: "Artista",
-		picture: "https://lupuz.netlify.app/img/pfp.png",
+		picture: "",
 	},
 
 	{
 		id: 5,
 		name: "tozeos",
 		occupation: "Programador",
-		picture: "https://lupuz.netlify.app/img/pfp.png",
+		picture: "/tozeos.png",
 	},
 
 	{
 		id: 6,
 		name: "Dani",
 		occupation: "Escritor",
-		picture: "https://lupuz.netlify.app/img/pfp.png",
+		picture: "",
 	},
 
 	{
 		id: 7,
 		name: "Kuro",
 		occupation: "Escritor",
-		picture: "https://lupuz.netlify.app/img/pfp.png",
+		picture: "",
 	},
 
 	{
 		id: 8,
 		name: "Red",
 		occupation: "Escritor",
-		picture: "https://lupuz.netlify.app/img/pfp.png",
+		picture: "",
 	},
 
 	{
 		id: 9,
 		name: "Thyller",
 		occupation: "Sonoplasta",
-		picture: "https://lupuz.netlify.app/img/pfp.png",
+		picture: "",
 	},
 
 	{
 		id: 10,
 		name: "Felipe",
 		occupation: "Suporte",
-		picture: "https://lupuz.netlify.app/img/pfp.png",
+		picture: "",
 	},
 
 	{
 		id: 11,
 		name: "xXLukinhoGameplaysBR123",
 		occupation: "Suporte",
-		picture: "https://lupuz.netlify.app/img/pfp.png",
+		picture: "",
 	},
 
 	{
 		id: 12,
 		name: "YiuRyem",
 		occupation: "Suporte",
-		picture: "https://lupuz.netlify.app/img/pfp.png",
+		picture: "",
 	},
 ];
 
