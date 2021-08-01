@@ -66,7 +66,7 @@ export const team = [
 		id: 9,
 		name: "Thyller",
 		occupation: "Sonoplasta",
-		picture: "",
+		picture: "/ThyllerTigrao.png",
 	},
 
 	{
