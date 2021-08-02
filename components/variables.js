@@ -1,64 +1,64 @@
 export const team = [
 	{
 		id: 0,
-		name: "Fossilus",
-		occupation: "Artista",
-		picture: "",
-	},
-
-	{
-		id: 1,
-		name: "Vini",
-		occupation: "Artista",
-		picture: "/vini.png",
-	},
-
-	{
-		id: 2,
-		name: "Blank",
-		occupation: "Artista",
-		picture: "",
-	},
-
-	{
-		id: 3,
 		name: "Thorkinn",
 		occupation: "Artista/Escritor",
 		picture: "",
 	},
 
 	{
-		id: 4,
-		name: "Vh",
-		occupation: "Artista",
-		picture: "",
-	},
-
-	{
-		id: 5,
-		name: "tozeos",
-		occupation: "Programador",
-		picture: "/tozeos.png",
-	},
-
-	{
-		id: 6,
-		name: "Dani",
-		occupation: "Escritor",
-		picture: "",
-	},
-
-	{
-		id: 7,
+		id: 1,
 		name: "Kuro",
 		occupation: "Escritor",
 		picture: "",
 	},
 
 	{
-		id: 8,
+		id: 2,
 		name: "Red",
 		occupation: "Escritor",
+		picture: "",
+	},
+
+	{
+		id: 3,
+		name: "tozeos",
+		occupation: "Programador",
+		picture: "/tozeos.png",
+	},
+
+	{
+		id: 4,
+		name: "Fossilus",
+		occupation: "Artista",
+		picture: "",
+	},
+
+	{
+		id: 5,
+		name: "Vini",
+		occupation: "Artista",
+		picture: "/vini.png",
+	},
+
+	{
+		id: 6,
+		name: "Blank",
+		occupation: "Artista",
+		picture: "",
+	},
+
+	{
+		id: 7,
+		name: "Vh",
+		occupation: "Artista",
+		picture: "",
+	},
+
+	{
+		id: 8,
+		name: "Donovan",
+		occupation: "Artista",
 		picture: "",
 	},
 
@@ -71,22 +71,22 @@ export const team = [
 
 	{
 		id: 10,
-		name: "Felipe",
-		occupation: "Suporte",
+		name: "Dani",
+		occupation: "Escritor",
 		picture: "",
 	},
 
 	{
 		id: 11,
-		name: "xXLukinhoGameplaysBR123",
-		occupation: "Suporte",
+		name: "YiuRyem",
+		occupation: "Moderação",
 		picture: "",
 	},
 
 	{
 		id: 12,
-		name: "YiuRyem",
-		occupation: "Suporte",
+		name: "xXLukinhoGameplaysBR123",
+		occupation: "Moderação",
 		picture: "",
 	},
 ];
