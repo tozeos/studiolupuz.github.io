@@ -1,9 +1,8 @@
 import React from "react";
 import styles from "../../styles/team.module.scss";
-import { team } from "../variables";
-
-const defaultpfp =
-	"https://i.pinimg.com/474x/9b/47/a0/9b47a023caf29f113237d61170f34ad9.jpg";
+import Link from "next/link";
+import Image from "next/image"
+import { team, defaultpfp } from "../variables";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -61,6 +60,11 @@ const Team = () => {
 									/>
 									<p className={styles.text}>{member.name}</p>
 									<p className={styles.occupation}>{member.occupation}</p>
+									<Link href={member.link} passHref>
+										<a target="_blank" rel="noopener noreferrer nofollow">
+											<Image className={styles.socialIcon} width={25} height={25} src={member.socialIcon} alt={`Link para o ${member.socialName}`}/>
+										</a>
+									</Link>
 								</div>
 							</SwiperSlide>
 						))}

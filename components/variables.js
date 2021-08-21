@@ -1,11 +1,16 @@
 export const website = "Studio Lupuz"
 
+export const defaultpfp = "https://i.pinimg.com/474x/9b/47/a0/9b47a023caf29f113237d61170f34ad9.jpg";
+
 export const team = [
 	{
 		id: 0,
 		name: "Thorkinn",
 		occupation: "Artista/Escritor",
 		picture: "",
+		socialName: "Twitter",
+		socialIcon: '/twitter.svg',
+		link: "https://https://twitter.com//",
 	},
 
 	{
@@ -13,6 +18,9 @@ export const team = [
 		name: "Kuro",
 		occupation: "Escritor",
 		picture: "",
+		socialName: "Twitter",
+		socialIcon: '/twitter.svg',
+		link: "https://twitter.com/",
 	},
 
 	{
@@ -20,6 +28,9 @@ export const team = [
 		name: "Red",
 		occupation: "Escritor",
 		picture: "",
+		socialName: "Twitter",
+		socialIcon: '/twitter.svg',
+		link: "https://twitter.com/",
 	},
 
 	{
@@ -27,6 +38,9 @@ export const team = [
 		name: "tozeos",
 		occupation: "Programador",
 		picture: "/tozeos.png",
+		socialName: "Twitter",
+		socialIcon: '/twitter.svg',
+		link: "https://twitter.com/IceIceBbi",
 	},
 
 	{
@@ -34,6 +48,9 @@ export const team = [
 		name: "Fossilus",
 		occupation: "Artista",
 		picture: "",
+		socialName: "Twitter",
+		socialIcon: '/twitter.svg',
+		link: "https://twitter.com/",
 	},
 
 	{
@@ -41,6 +58,9 @@ export const team = [
 		name: "Vini",
 		occupation: "Artista",
 		picture: "/vini.png",
+		socialName: "Twitter",
+		socialIcon: '/twitter.svg',
+		link: "https://twitter.com/",
 	},
 
 	{
@@ -48,6 +68,9 @@ export const team = [
 		name: "Blank",
 		occupation: "Artista",
 		picture: "",
+		socialName: "Twitter",
+		socialIcon: '/twitter.svg',
+		link: "https://twitter.com/",
 	},
 
 	{
@@ -55,6 +78,9 @@ export const team = [
 		name: "Vh",
 		occupation: "Artista",
 		picture: "",
+		socialName: "Twitter",
+		socialIcon: '/twitter.svg',
+		link: "https://twitter.com/",
 	},
 
 	{
@@ -62,6 +88,9 @@ export const team = [
 		name: "Donovan",
 		occupation: "Artista",
 		picture: "",
+		socialName: "Twitter",
+		socialIcon: '/twitter.svg',
+		link: "https://twitter.com/",
 	},
 
 	{
@@ -69,6 +98,9 @@ export const team = [
 		name: "Thyller",
 		occupation: "Sonoplasta",
 		picture: "/ThyllerTigrao.png",
+		socialName: "Twitter",
+		socialIcon: '/twitter.svg',
+		link: "https://twitter.com/",
 	},
 
 	{
@@ -76,6 +108,9 @@ export const team = [
 		name: "Dani",
 		occupation: "Escritor",
 		picture: "",
+		socialName: "Twitter",
+		socialIcon: '/twitter.svg',
+		link: "https://twitter.com/",
 	},
 
 	{
@@ -83,6 +118,9 @@ export const team = [
 		name: "YiuRyem",
 		occupation: "Moderação",
 		picture: "",
+		socialName: "Twitter",
+		socialIcon: '/twitter.svg',
+		link: "https://twitter.com/",
 	},
 
 	{
@@ -90,6 +128,9 @@ export const team = [
 		name: "xXLukinhoGameplaysBR123",
 		occupation: "Moderação",
 		picture: "",
+		socialName: "Twitter",
+		socialIcon: '/twitter.svg',
+		link: "https://twitter.com//",
 	},
 ];
 
