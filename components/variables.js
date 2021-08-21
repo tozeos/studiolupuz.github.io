@@ -1,3 +1,5 @@
+export const website = "Studio Lupuz"
+
 export const team = [
 	{
 		id: 0,

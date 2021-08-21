@@ -3,12 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../../styles/about.module.scss";
 import lupo from "../../public/lupo.png";
+import { website } from "../variables";
 
 const About = () => {
 	return (
 		<section className={styles.container}>
 			<div className={styles.text}>
-				<h1>About Studio Lupuz</h1>
+				<h1>About {website}</h1>
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Id commodi
 					maiores tenetur in velit minima rem ad deleniti nisi est totam ex
