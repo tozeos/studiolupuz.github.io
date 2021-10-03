@@ -6,8 +6,6 @@ import { dates, arts } from "../variables";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Scrollbar } from "swiper/core";
 
-import { lupopc } from "../../public/lupopng.png";
-
 SwiperCore.use([Scrollbar]);
 
 const CalendarArt = () => {

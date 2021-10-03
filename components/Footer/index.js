@@ -20,7 +20,8 @@ const Footer = () => {
 				</div>
 				<div className={styles.right}>
 					<p>
-						<span className={styles.highlight}>{website}</span> - 2021</p>
+						<span className={styles.highlight}>{website}</span> - {new Date().getFullYear()}
+					</p>
 					<p> Designed and coded by <Link href="http://tozeos.github.io" passHref>
 								<a className={styles.highlight} target="_blank" rel="noopener noreferrer nofollow">
 									tozeos

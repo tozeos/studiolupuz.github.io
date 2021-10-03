@@ -6,11 +6,11 @@ export const team = [
 	{
 		id: 0,
 		name: "Thorkinn",
-		occupation: "Artista/Escritor",
-		picture: "",
+		occupation: "Artista",
+		picture: "/thorkinn.webp",
 		socialName: "Twitter",
 		socialIcon: '/twitter.svg',
-		link: "https://https://twitter.com//",
+		link: "https://twitter.com/Thor_kinn",
 	},
 
 	{
@@ -20,7 +20,7 @@ export const team = [
 		picture: "",
 		socialName: "Twitter",
 		socialIcon: '/twitter.svg',
-		link: "https://twitter.com/",
+		link: "https://twitter.com/ogamikuro",
 	},
 
 	{
@@ -37,7 +37,7 @@ export const team = [
 		id: 3,
 		name: "tozeos",
 		occupation: "Programador",
-		picture: "/tozeos.png",
+		picture: "/tozeos.webp",
 		socialName: "Twitter",
 		socialIcon: '/twitter.svg',
 		link: "https://twitter.com/IceIceBbi",
@@ -57,10 +57,10 @@ export const team = [
 		id: 5,
 		name: "Vini",
 		occupation: "Artista",
-		picture: "/vini.png",
+		picture: "/vini.webp",
 		socialName: "Twitter",
 		socialIcon: '/twitter.svg',
-		link: "https://twitter.com/",
+		link: "https://twitter.com/Uzyboy_",
 	},
 
 	{
@@ -70,7 +70,7 @@ export const team = [
 		picture: "",
 		socialName: "Twitter",
 		socialIcon: '/twitter.svg',
-		link: "https://twitter.com/",
+		link: "https://twitter.com/Der_Blank",
 	},
 
 	{
@@ -80,13 +80,43 @@ export const team = [
 		picture: "",
 		socialName: "Twitter",
 		socialIcon: '/twitter.svg',
-		link: "https://twitter.com/",
+		link: "https://twitter.com/vhleur",
 	},
 
 	{
 		id: 8,
 		name: "Donovan",
 		occupation: "Artista",
+		picture: "donovan.webp",
+		socialName: "Twitter",
+		socialIcon: '/twitter.svg',
+		link: "https://twitter.com/LionNavonod",
+	},
+
+	{
+		id: 9,
+		name: "Hati",
+		occupation: "Programador",
+		picture: "",
+		socialName: "Twitter",
+		socialIcon: '/twitter.svg',
+		link: "https://twitter.com/HatiTheWarg",
+	},
+
+	{
+		id: 10,
+		name: "Thyller",
+		occupation: "Música",
+		picture: "/ThyllerTigrao.webp",
+		socialName: "Twitter",
+		socialIcon: '/twitter.svg',
+		link: "https://twitter.com/",
+	},
+
+	{
+		id: 11,
+		name: "Chokit",
+		occupation: "Música",
 		picture: "",
 		socialName: "Twitter",
 		socialIcon: '/twitter.svg',
@@ -94,17 +124,7 @@ export const team = [
 	},
 
 	{
-		id: 9,
-		name: "Thyller",
-		occupation: "Sonoplasta",
-		picture: "/ThyllerTigrao.png",
-		socialName: "Twitter",
-		socialIcon: '/twitter.svg',
-		link: "https://twitter.com/",
-	},
-
-	{
-		id: 10,
+		id: 12,
 		name: "Dani",
 		occupation: "Escritor",
 		picture: "",
@@ -114,9 +134,9 @@ export const team = [
 	},
 
 	{
-		id: 11,
+		id: 13,
 		name: "YiuRyem",
-		occupation: "Moderação",
+		occupation: "Suporte",
 		picture: "",
 		socialName: "Twitter",
 		socialIcon: '/twitter.svg',
@@ -124,13 +144,13 @@ export const team = [
 	},
 
 	{
-		id: 12,
+		id: 14,
 		name: "xXLukinhoGameplaysBR123",
-		occupation: "Moderação",
+		occupation: "Suporte",
 		picture: "",
 		socialName: "Twitter",
 		socialIcon: '/twitter.svg',
-		link: "https://twitter.com//",
+		link: "https://twitter.com/",
 	},
 ];
 

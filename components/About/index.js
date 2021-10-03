@@ -9,7 +9,7 @@ const About = () => {
 	return (
 		<section className={styles.container}>
 			<div className={styles.text}>
-				<h1>About {website}</h1>
+				<h1>Sobre o {website}</h1>
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Id commodi
 					maiores tenetur in velit minima rem ad deleniti nisi est totam ex
