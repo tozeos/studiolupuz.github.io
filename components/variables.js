@@ -56,7 +56,7 @@ export const team = [
 	{
 		id: 5,
 		name: "Vini",
-		occupation: "Artista",
+		occupation: "Artista/Programador",
 		picture: "/vini.webp",
 		socialName: "Twitter",
 		socialIcon: '/twitter.svg',
