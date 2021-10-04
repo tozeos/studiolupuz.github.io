@@ -67,7 +67,7 @@ export const team = [
 		id: 6,
 		name: "Blank",
 		occupation: "Artista",
-		picture: "",
+		picture: "/blank.webp",
 		socialName: "Twitter",
 		socialIcon: '/twitter.svg',
 		link: "https://twitter.com/Der_Blank",
