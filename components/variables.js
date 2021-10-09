@@ -1,15 +1,16 @@
-export const website = "Studio Lupuz"
+export const website = "Studio Lupuz";
 
-export const defaultpfp = "https://i.pinimg.com/474x/9b/47/a0/9b47a023caf29f113237d61170f34ad9.jpg";
+export const defaultpfp =
+	"https://i.pinimg.com/474x/9b/47/a0/9b47a023caf29f113237d61170f34ad9.jpg";
 
 export const team = [
 	{
 		id: 0,
 		name: "Thorkinn",
 		occupation: "Artista",
-		picture: "/thorkinn.webp",
+		picture: "/team/thorkinn.webp",
 		socialName: "Twitter",
-		socialIcon: '/twitter.svg',
+		socialIcon: "/twitter.svg",
 		link: "https://twitter.com/Thor_kinn",
 	},
 
@@ -17,9 +18,9 @@ export const team = [
 		id: 1,
 		name: "Kuro",
 		occupation: "Escritor",
-		picture: "",
+		picture: "/team/kuro.webp",
 		socialName: "Twitter",
-		socialIcon: '/twitter.svg',
+		socialIcon: "/twitter.svg",
 		link: "https://twitter.com/ogamikuro",
 	},
 
@@ -29,7 +30,7 @@ export const team = [
 		occupation: "Escritor",
 		picture: "",
 		socialName: "Twitter",
-		socialIcon: '/twitter.svg',
+		socialIcon: "/twitter.svg",
 		link: "https://twitter.com/",
 	},
 
@@ -37,9 +38,9 @@ export const team = [
 		id: 3,
 		name: "tozeos",
 		occupation: "Programador",
-		picture: "/tozeos.webp",
+		picture: "/team/tozeos.webp",
 		socialName: "Twitter",
-		socialIcon: '/twitter.svg',
+		socialIcon: "/twitter.svg",
 		link: "https://twitter.com/IceIceBbi",
 	},
 
@@ -49,7 +50,7 @@ export const team = [
 		occupation: "Artista",
 		picture: "",
 		socialName: "Twitter",
-		socialIcon: '/twitter.svg',
+		socialIcon: "/twitter.svg",
 		link: "https://twitter.com/",
 	},
 
@@ -57,9 +58,9 @@ export const team = [
 		id: 5,
 		name: "Vini",
 		occupation: "Artista/Programador",
-		picture: "/vini.webp",
+		picture: "/team/vini.webp",
 		socialName: "Twitter",
-		socialIcon: '/twitter.svg',
+		socialIcon: "/twitter.svg",
 		link: "https://twitter.com/Uzyboy_",
 	},
 
@@ -67,9 +68,9 @@ export const team = [
 		id: 6,
 		name: "Blank",
 		occupation: "Artista",
-		picture: "/blank.webp",
+		picture: "/team/blank.webp",
 		socialName: "Twitter",
-		socialIcon: '/twitter.svg',
+		socialIcon: "/twitter.svg",
 		link: "https://twitter.com/Der_Blank",
 	},
 
@@ -79,7 +80,7 @@ export const team = [
 		occupation: "Artista",
 		picture: "",
 		socialName: "Twitter",
-		socialIcon: '/twitter.svg',
+		socialIcon: "/twitter.svg",
 		link: "https://twitter.com/vhleur",
 	},
 
@@ -87,9 +88,9 @@ export const team = [
 		id: 8,
 		name: "Donovan",
 		occupation: "Artista",
-		picture: "donovan.webp",
+		picture: "/team/donovan.webp",
 		socialName: "Twitter",
-		socialIcon: '/twitter.svg',
+		socialIcon: "/twitter.svg",
 		link: "https://twitter.com/LionNavonod",
 	},
 
@@ -99,7 +100,7 @@ export const team = [
 		occupation: "Programador",
 		picture: "",
 		socialName: "Twitter",
-		socialIcon: '/twitter.svg',
+		socialIcon: "/twitter.svg",
 		link: "https://twitter.com/HatiTheWarg",
 	},
 
@@ -107,9 +108,9 @@ export const team = [
 		id: 10,
 		name: "Thyller",
 		occupation: "Música",
-		picture: "/ThyllerTigrao.webp",
+		picture: "/team/thyller.webp",
 		socialName: "Twitter",
-		socialIcon: '/twitter.svg',
+		socialIcon: "/twitter.svg",
 		link: "https://twitter.com/",
 	},
 
@@ -119,7 +120,7 @@ export const team = [
 		occupation: "Música",
 		picture: "",
 		socialName: "Twitter",
-		socialIcon: '/twitter.svg',
+		socialIcon: "/twitter.svg",
 		link: "https://twitter.com/",
 	},
 
@@ -129,7 +130,7 @@ export const team = [
 		occupation: "Escritor",
 		picture: "",
 		socialName: "Twitter",
-		socialIcon: '/twitter.svg',
+		socialIcon: "/twitter.svg",
 		link: "https://twitter.com/",
 	},
 
@@ -139,17 +140,17 @@ export const team = [
 		occupation: "Suporte",
 		picture: "",
 		socialName: "Twitter",
-		socialIcon: '/twitter.svg',
+		socialIcon: "/twitter.svg",
 		link: "https://twitter.com/",
 	},
 
 	{
 		id: 14,
-		name: "xXLukinhoGameplaysBR123",
+		name: "Luke",
 		occupation: "Suporte",
-		picture: "",
+		picture: "/team/luke.webp",
 		socialName: "Twitter",
-		socialIcon: '/twitter.svg',
+		socialIcon: "/twitter.svg",
 		link: "https://twitter.com/",
 	},
 ];
