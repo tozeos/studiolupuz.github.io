@@ -31,8 +31,7 @@ const CalendarArt = () => {
 						scrollbar={{
 							hide: true,
 						}}
-						className={styles.mySwiper}
-					>
+						className={styles.mySwiper}>
 						{arts.map((art) => (
 							<SwiperSlide className={styles.swiperslide} key={art.id}>
 								<div

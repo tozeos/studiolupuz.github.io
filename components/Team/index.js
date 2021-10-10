@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../../styles/team.module.scss";
 import Link from "next/link";
-import Image from "next/image"
+import Image from "next/image";
 import { team, defaultpfp } from "../variables";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -45,8 +45,7 @@ const Team = () => {
 								spaceBetween: 0,
 							},
 						}}
-						className={styles.mySwiper}
-					>
+						className={styles.mySwiper}>
 						{team.map((member) => (
 							<SwiperSlide key={member.id}>
 								<div className={styles.member}>
@@ -62,7 +61,13 @@ const Team = () => {
 									<p className={styles.occupation}>{member.occupation}</p>
 									<Link href={member.link} passHref>
 										<a target="_blank" rel="noopener noreferrer nofollow">
-											<Image className={styles.socialIcon} width={25} height={25} src={member.socialIcon} alt={`Link para o ${member.socialName}`}/>
+											<Image
+												className={styles.socialIcon}
+												width={25}
+												height={25}
+												src={member.socialIcon}
+												alt={`Link para o ${member.socialName}`}
+											/>
 										</a>
 									</Link>
 								</div>

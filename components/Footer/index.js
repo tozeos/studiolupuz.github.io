@@ -11,7 +11,7 @@ const Footer = () => {
 			<section className={styles.container}>
 				<div className={styles.left}>
 					<Link href="https://discord.gg/7xVHHshgmp" passHref>
-						<a target="_blank"  rel="noopener noreferrer nofollow">
+						<a target="_blank" rel="noopener noreferrer nofollow">
 							<Image className={styles.discord} src={discord} quality={100} />
 						</a>
 					</Link>
@@ -20,12 +20,20 @@ const Footer = () => {
 				</div>
 				<div className={styles.right}>
 					<p>
-						<span className={styles.highlight}>{website}</span> - {new Date().getFullYear()}
+						<span className={styles.highlight}>{website}</span> -{" "}
+						{new Date().getFullYear()}
 					</p>
-					<p> Designed and coded by <Link href="http://tozeos.github.io" passHref>
-								<a className={styles.highlight} target="_blank" rel="noopener noreferrer nofollow">
-									tozeos
-								</a></Link>
+					<p>
+						{" "}
+						Designed and coded by{" "}
+						<Link href="http://tozeos.github.io" passHref>
+							<a
+								className={styles.highlight}
+								target="_blank"
+								rel="noopener noreferrer nofollow">
+								tozeos
+							</a>
+						</Link>
 					</p>
 				</div>
 			</section>
