@@ -1,25 +1,19 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 import styles from "../../styles/about.module.scss";
 import lupo from "../../public/lupo.png";
-import { website } from "../variables";
+import {websiteAbout, websiteName} from "../variables";
 
 const About = () => {
-	return (
-		<section className={styles.container}>
-			<div className={styles.text}>
-				<h1>Sobre o {website}</h1>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Id commodi
-					maiores tenetur in velit minima rem ad deleniti nisi est totam ex
-					ipsam praesentium corrupti quibusdam nesciunt, eius reiciendis
-					cupiditate harum. Eveniet repellat, consequatur maiores perspiciatis
-					aut earum eaque harum corporis libero itaque labore possimus
-					blanditiis cumque deleniti id! Atque.
-				</p>
+    return (
+        <section className={styles.container}>
+            <div className={styles.text}>
+                <h1>Sobre o {websiteName}</h1>
+                <p>
+                    {websiteAbout}
+                </p>
 
-				{/* <ul className={styles.social}>
+                {/* <ul className={styles.social}>
 					<li>
 						<Link href="/" passHref>
 							<a target="_blank" rel="noopener noreferrer nofollow">
@@ -42,12 +36,12 @@ const About = () => {
 						</Link>
 					</li>
 				</ul> */}
-			</div>
-			<div className={styles.lupoContainer}>
-				<Image src={lupo} alt="Mascote Lupo" />
-			</div>
-		</section>
-	);
+            </div>
+            <div className={styles.lupoContainer}>
+                <Image src={lupo} alt="Mascote Lupo"/>
+            </div>
+        </section>
+    );
 };
 
 export default About;
