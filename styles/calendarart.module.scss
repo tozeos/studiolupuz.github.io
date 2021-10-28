@@ -56,29 +56,52 @@
 		cursor: pointer;
 
 		span {
-			padding: 0.9rem;
-			border-radius: 5px;
-			background-color: white;
-			color: #242276;
-			font-weight: 700;
-			margin-right: 1rem;
+
 		}
 
 		.event {
-			padding: 1rem 1rem 1rem 0.1rem;
+			display: flex;
+			flex-direction: column;
+			height: 100px;
 			color: white;
 			border-bottom: 1px solid white;
 			border-top: 1px solid white;
-			background-color: #242276;
 			border-radius: 5px;
-			transition: all 0.4s ease-in-out;
-
-			&:hover {
-				background-color: rgb(228, 160, 59);
-			}
 		}
 	}
 }
+
+.date {
+	display: flex;
+	align-items: flex-start;
+	padding: 0.9rem;
+	border-radius: 5px 5px 0 0;
+	background: #161552 url("/favicon.png") no-repeat center right 15px;
+	background-size: 30px;
+	color: white;
+	font-weight: 700;
+	width: 100%;
+}
+
+.dateTitle {
+	font-weight: 600;
+}
+
+.dateInfo {
+	background: #242276;
+	color: white;
+	margin-bottom: 1rem;
+	padding: 0.9rem;
+	border-radius: 0 0 5px 5px;
+	transition: all 0.2s ease-in-out;
+
+	&:hover {
+		background-color: rgb(228, 160, 59);
+	}
+}
+
+
+// Swiper
 
 .swipercontainer {
 	width: 60%;

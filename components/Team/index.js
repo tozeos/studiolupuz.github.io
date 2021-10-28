@@ -20,7 +20,7 @@ const Team = () => {
     return (
         <>
             <section className={styles.container}>
-                <h2 className={styles.subTitle}>Nosso time</h2>
+                <h2 id={'time'} className={styles.subTitle}>Nosso time</h2>
                 <div className={styles.swipercontainer}>
                     <Swiper
                         slidesPerView={3}

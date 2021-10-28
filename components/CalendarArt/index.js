@@ -1,6 +1,4 @@
-import react from "react";
 import styles from "../../styles/calendarart.module.scss";
-import Image from "next/image";
 import {dates, arts} from "../variables";
 
 import {Swiper, SwiperSlide} from "swiper/react";
@@ -13,15 +11,16 @@ const CalendarArt = () => {
         <>
             <section className={styles.container}>
                 <div className={styles.calendar}>
-                    <h2 className={styles.subTitle}>Calendário</h2>
-                    <div>
+                    <h2 id={'calendario'} className={styles.subTitle}>Calendário</h2>
                         {dates.map((date) => (
-                            <p className={styles.event} key={date.id}>
-                                <span>{date.date}</span>
-                                {date.description}
-                            </p>
+                            <div className={styles.event} key={date.id}>
+                                <div className={styles.date}>{date.date}</div>
+                                <div className={styles.dateInfo}>
+                                    <span className={styles.dateTitle}>{date.dateTitle}</span> <br />
+                                    {date.description}
+                                </div>
+                            </div>
                         ))}
-                    </div>
                 </div>
 
                 <div className={styles.swipercontainer}>

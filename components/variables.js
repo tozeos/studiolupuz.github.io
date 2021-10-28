@@ -1,5 +1,5 @@
 export const websiteName = "Studio Lupuz";
-export const websiteAbout = "O projeto Lupuz Studio foi criado com o intuito de ser um ambiente sfw no fandom onde as pessoas possam fazer amigos e desfrutar de algumas atividades como jogar com amigos que tenham gosto em comum. O principal interesse do projeto é a criação de conteúdo brasileiro, como visual novels, comics, e uma imersão em um universo incrível e grande com personagens carismáticos. Venha conhecer mais sobre o projeto!"
+export const websiteAbout = "O projeto Lupuz Studio foi criado com o intuito de ser um ambiente saudável/SFW no fandom onde as pessoas possam fazer amigos e desfrutar de algumas atividades como jogar com amigos que tenham gostos em comum. O principal intuito do projeto é a criação de conteúdo brasileiro, como visual novels, comics, e uma imersão em um universo incrível e grande com personagens carismáticos. Venha conhecer mais sobre o projeto!";
 
 export const defaultpfp =
     "https://i.pinimg.com/474x/9b/47/a0/9b47a023caf29f113237d61170f34ad9.jpg";
@@ -141,45 +141,26 @@ export const dates = [
     {
         id: 0,
         date: "02/08",
-        description: "Visual novel launch day",
+        dateTitle: "Visual novel launch day",
+        description: "Bla, bla, bla",
     },
     {
         id: 1,
         date: "05/08",
-        description: "Comic #21",
+        dateTitle: "Comic #21",
+        description: "Bla, bla, bla",
     },
     {
         id: 2,
         date: "14/08",
-        description: "New short story",
+        dateTitle: "New short story",
+        description: "Bla, bla, bla",
     },
     {
         id: 3,
         date: "17/08",
-        description: "New character release",
-    },
-    {
-        id: 4,
-        date: "21/08",
-        description: "Visual novel launch day",
-    },
-
-    {
-        id: 6,
-        date: "22/08",
-        description: "Visual novel launch day",
-    },
-
-    {
-        id: 7,
-        date: "23/08",
-        description: "Visual novel launch day",
-    },
-
-    {
-        id: 8,
-        date: "25/08",
-        description: "Visual novel launch day",
+        dateTitle: "New character release",
+        description: "Bla, bla, bla",
     },
 ];
 

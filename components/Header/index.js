@@ -10,22 +10,22 @@ const Header = () => {
             <nav className={styles.navbar}>
                 <ul>
                     <li>
-                        <Link href="/" passHref>
-                            <a target="_blank" rel="noopener noreferrer nofollow">
+                        <Link href="#sobre" passHref>
+                            <a rel="noopener noreferrer nofollow">
                                 Sobre
                             </a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/" passHref>
-                            <a target="_blank" rel="noopener noreferrer nofollow">
+                        <Link href="#calendario" passHref>
+                            <a rel="noopener noreferrer nofollow">
                                 Calendário
                             </a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/" passHref>
-                            <a target="_blank" rel="noopener noreferrer nofollow">
+                        <Link href="#time" passHref>
+                            <a rel="noopener noreferrer nofollow">
                                 Time
                             </a>
                         </Link>

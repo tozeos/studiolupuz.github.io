@@ -7,7 +7,7 @@ import {websiteAbout, websiteName} from "../variables";
 const About = () => {
     return (
         <section className={styles.container}>
-            <div className={styles.text}>
+            <div id={'sobre'} className={styles.text}>
                 <h1>Sobre o {websiteName}</h1>
                 <p>
                     {websiteAbout}
