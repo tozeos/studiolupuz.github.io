@@ -53,11 +53,11 @@
 .social {
 	display: flex;
 	list-style: none;
-	justify-content: space-evenly;
+	gap: .5rem;
 	flex-wrap: wrap;
 
 	a {
-		font-size: 1rem;
+		font-size: 1.2rem;
 		color: white;
 		display: inline-block;
 		text-decoration: none;

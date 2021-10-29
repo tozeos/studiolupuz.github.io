@@ -47,22 +47,22 @@ export const team = [
 
     {
         id: 4,
-        name: "Fossilus",
-        occupation: "Artista",
-        picture: "",
-        socialName: "Twitter",
-        socialIcon: "/twitter.svg",
-        link: "https://twitter.com/",
-    },
-
-    {
-        id: 5,
         name: "Vini",
         occupation: "Artista/Programador",
         picture: "/team/vini.webp",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
         link: "https://twitter.com/Uzyboy_",
+    },
+
+    {
+        id: 5,
+        name: "Ed",
+        occupation: "Artista",
+        picture: "/team/ed.webp",
+        socialName: "Twitter",
+        socialIcon: "/twitter.svg",
+        link: "https://twitter.com/",
     },
 
     {
@@ -77,6 +77,16 @@ export const team = [
 
     {
         id: 7,
+        name: "Fossilus",
+        occupation: "Artista",
+        picture: "",
+        socialName: "Twitter",
+        socialIcon: "/twitter.svg",
+        link: "https://twitter.com/",
+    },
+
+    {
+        id: 8,
         name: "Donovan",
         occupation: "Artista",
         picture: "/team/donovan.webp",
@@ -86,18 +96,17 @@ export const team = [
     },
 
     {
-        id: 8,
+        id: 9,
         name: "Hati",
         occupation: "Programador",
-        picture: "",
+        picture: "/team/hati.webp",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
         link: "https://twitter.com/HatiTheWarg",
     },
 
-
     {
-        id: 9,
+        id: 10,
         name: "Chokit",
         occupation: "Música",
         picture: "",
@@ -107,7 +116,7 @@ export const team = [
     },
 
     {
-        id: 10,
+        id: 11,
         name: "Dani",
         occupation: "Escritor",
         picture: "",
@@ -117,7 +126,7 @@ export const team = [
     },
 
     {
-        id: 11,
+        id: 12,
         name: "YiuRyem",
         occupation: "Suporte",
         picture: "",
@@ -127,10 +136,30 @@ export const team = [
     },
 
     {
-        id: 12,
+        id: 13,
         name: "Luke",
         occupation: "Suporte",
         picture: "/team/luke.webp",
+        socialName: "Twitter",
+        socialIcon: "/twitter.svg",
+        link: "https://twitter.com/",
+    },
+
+    {
+        id: 14,
+        name: "Hirazuky",
+        occupation: "Tradução",
+        picture: "/team/hirazuky.webp",
+        socialName: "Twitter",
+        socialIcon: "/twitter.svg",
+        link: "https://twitter.com/",
+    },
+
+    {
+        id: 15,
+        name: "ExCrYsYs",
+        occupation: "Arte",
+        picture: "",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
         link: "https://twitter.com/",
@@ -140,27 +169,27 @@ export const team = [
 export const dates = [
     {
         id: 0,
-        date: "02/08",
-        dateTitle: "Visual novel launch day",
-        description: "Bla, bla, bla",
+        date: "??",
+        dateTitle: "Nada agendado",
+        description: "Nada agendado",
     },
     {
         id: 1,
-        date: "05/08",
-        dateTitle: "Comic #21",
-        description: "Bla, bla, bla",
+        date: "??",
+        dateTitle: "Nada agendado",
+        description: "Nada agendado",
     },
     {
         id: 2,
-        date: "14/08",
-        dateTitle: "New short story",
-        description: "Bla, bla, bla",
+        date: "??",
+        dateTitle: "Nada agendado",
+        description: "Nada agendado",
     },
     {
         id: 3,
-        date: "17/08",
-        dateTitle: "New character release",
-        description: "Bla, bla, bla",
+        date: "??",
+        dateTitle: "Nada agendado",
+        description: "Nada agendado",
     },
 ];
 

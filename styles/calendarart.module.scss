@@ -48,16 +48,7 @@
 	}
 
 	div {
-		height: inherit;
-		display: flex;
-		flex-direction: column;
-		align-content: space-around;
-
 		cursor: pointer;
-
-		span {
-
-		}
 
 		.event {
 			display: flex;
@@ -96,7 +87,7 @@
 	transition: all 0.2s ease-in-out;
 
 	&:hover {
-		background-color: rgb(228, 160, 59);
+		background-color: #37359e;
 	}
 }
 
