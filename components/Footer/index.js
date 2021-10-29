@@ -32,7 +32,8 @@ const Footer = () => {
                                 rel="noopener noreferrer nofollow">
                                 {" "}tozeos
                             </a>
-                        </Link>
+                        </Link><br />
+                        <span className={styles.version}>Version 1.0</span>
                     </p>
                 </div>
             </section>

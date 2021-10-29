@@ -169,27 +169,27 @@ export const team = [
 export const dates = [
     {
         id: 0,
-        date: "??",
-        dateTitle: "Nada agendado",
-        description: "Nada agendado",
+        date: "25/12",
+        dateTitle: "Revelação de personagem",
+        description: "O segundo personagem da VN será anunciado.",
     },
     {
         id: 1,
-        date: "??",
-        dateTitle: "Nada agendado",
-        description: "Nada agendado",
+        date: "2022",
+        dateTitle: "Em breve",
+        description: "",
     },
     {
         id: 2,
-        date: "??",
-        dateTitle: "Nada agendado",
-        description: "Nada agendado",
+        date: "2022",
+        dateTitle: "Em breve",
+        description: "",
     },
     {
         id: 3,
-        date: "??",
-        dateTitle: "Nada agendado",
-        description: "Nada agendado",
+        date: "2022",
+        dateTitle: "Em breve",
+        description: "",
     },
 ];
 
