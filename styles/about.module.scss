@@ -57,14 +57,13 @@
 	flex-wrap: wrap;
 
 	a {
-		font-size: 0.9rem;
+		font-size: 1rem;
 		color: white;
 		display: inline-block;
 		text-decoration: none;
+		padding: .5rem;
 		background-color: #242276;
-
 		border-radius: 5px;
-		padding: 0.5rem 2rem;
 		margin-top: 1.5rem;
 		transition: all 0.4s ease-in-out;
 

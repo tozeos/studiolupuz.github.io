@@ -29,7 +29,7 @@ export const team = [
         id: 2,
         name: "Red",
         occupation: "Escritor",
-        picture: "",
+        picture: "/team/red.webp",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
         link: "https://twitter.com/",
