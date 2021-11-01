@@ -14,7 +14,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import {websiteAbout, websiteName} from "../variables";
 import styles from "../../styles/about.module.scss";
-import lupo from "../../public/lupo.png";
+import lupo from "../../public/lupo.webp";
 
 const About = () => {
     return (

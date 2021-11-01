@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import discord from "../../public/discord.png";
+import discord from "../../public/discord.webp";
 import styles from "../../styles/footer.module.scss";
 import {websiteName} from "../variables";
 
