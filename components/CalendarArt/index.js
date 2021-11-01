@@ -1,5 +1,5 @@
 import styles from "../../styles/calendarart.module.scss";
-import {dates, arts} from "../variables";
+import {arts, dates} from "../variables";
 
 import {Swiper, SwiperSlide} from "swiper/react";
 import SwiperCore, {Scrollbar} from "swiper/core";
@@ -11,16 +11,16 @@ const CalendarArt = () => {
         <>
             <section className={styles.container}>
                 <div className={styles.calendar}>
-                    <h2 id={'calendario'} className={styles.subTitle}>Calendário</h2>
-                        {dates.map((date) => (
-                            <div className={styles.event} key={date.id}>
-                                <div className={styles.date}>{date.date}</div>
-                                <div className={styles.dateInfo}>
-                                    <span className={styles.dateTitle}>{date.dateTitle}</span> <br />
-                                    {date.description}
-                                </div>
+                    <h2 id={"calendario"} className={styles.subTitle}>Calendário</h2>
+                    {dates.map((date) => (
+                        <div className={styles.event} key={date.id}>
+                            <div className={styles.date}>{date.date}</div>
+                            <div className={styles.dateInfo}>
+                                <span className={styles.dateTitle}>{date.dateTitle}</span> <br/>
+                                {date.description}
                             </div>
-                        ))}
+                        </div>
+                    ))}
                 </div>
 
                 <div className={styles.swipercontainer}>
@@ -35,11 +35,16 @@ const CalendarArt = () => {
                             <SwiperSlide className={styles.swiperslide} key={art.id}>
                                 <div
                                     className={styles.artBackground}
-                                    style={{backgroundImage: `url(${art.link})`}}
+                                    style={{
+                                        backgroundImage: `url(${art.link})`,
+                                        backgroundPosition: art.bgPosition,
+                                        backgroundRepeat: art.bgRepeat,
+                                        backgroundSize: art.bgSize,
+                                    }}
                                     alt={art.alt}
                                 />
                                 <p className={styles.credit}>
-                                    By <strong>{art.credit}</strong> on {art.origin} - {art.alt}
+                                    Por <strong>{art.credit}</strong> no {art.origin} - {art.alt}
                                 </p>
                             </SwiperSlide>
                         ))}

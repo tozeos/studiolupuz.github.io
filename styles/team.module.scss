@@ -1,104 +1,106 @@
 @import "../styles/variables";
 
 .container {
-	position: relative;
-	margin: 0 auto;
-	padding: 5rem 5rem 10rem;
-	display: flex;
-	flex-direction: column;
-	background-color: $blue;
+  position: relative;
+  margin: 0 auto;
+  padding: 5rem 5rem 10rem;
+  display: flex;
+  flex-direction: column;
+  background-color: $blue;
 
-	align-items: center;
-	justify-content: center;
+  align-items: center;
+  justify-content: center;
 
-	@media (max-width: 1076px) {
-		padding: 3rem;
-	}
+  @media (max-width: 1076px) {
+    padding: 3rem;
+  }
 
-	@media (max-width: 470px) {
-		padding: 2rem;
-	}
+  @media (max-width: 470px) {
+    padding: 2rem;
+  }
 
-	.subTitle {
-		font-size: 1.8rem;
-		color: $white;
-		font-weight: 700;
-		text-transform: uppercase;
-		font-family: "Poppins", sans-serif;
-		padding-bottom: 5rem;
+  .subTitle {
+    font-size: 1.8rem;
+    color: $white;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 5rem;
 
-		@media (max-width: 470px) {
-			font-size: 2.3rem;
-		}
+    @media (max-width: 470px) {
+      font-size: 2.3rem;
+    }
 
-		&::after {
-			display: block;
-			content: "";
-			background-color: $yellow;
-			width: 70%;
-			height: 3px;
-			margin: 0 auto;
-			border-radius: 1rem;
-		}
-	}
+    &::after {
+      display: block;
+      content: "";
+      background-color: $yellow;
+      width: 70%;
+      height: 3px;
+      margin: 0 auto;
+      border-radius: 1rem;
+    }
+  }
 }
 
 .mySwiper {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
 
-	div {
-		border-radius: 50%;
-	}
+  div {
+    border-radius: 50%;
+  }
 }
+
 .member {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: $blue;
 
-	.profile {
-		width: 130px;
-		height: 130px;
-		background-position: center;
-		background-size: cover;
-		margin-bottom: 1rem;
-	}
+  .profile {
+    width: 130px;
+    height: 130px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1rem;
+  }
 
-	.text {
-		color: $yellow;
-		font-weight: 600;
-	}
+  .text {
+    color: $yellow;
+    font-weight: 700;
+  }
 
-	.occupation {
-		font-weight: 400;
-		color: white;
-		font-style: italic;
-		font-size: 14px;
-		opacity: 0.8;
-	}
+  .occupation {
+    font-weight: 400;
+    color: white;
+    font-style: italic;
+    font-size: 14px;
+    opacity: 0.8;
+  }
 }
 
 .socialIcon {
-	margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .swipercontainer {
-	width: 100%;
-	height: 100%;
-	text-align: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 
 .swiper-slide {
-	text-align: center;
-	background: #fff;
+  text-align: center;
+  background: #fff;
 
-	/* Center slide text vertically */
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

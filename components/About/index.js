@@ -28,7 +28,7 @@ const About = () => {
                 <ul className={styles.social}>
                     <li>
                         <Link href="https://twitter.com/LupuzStudio" passHref>
-                            <a target="_blank" rel="noopener noreferrer nofollow">
+                            <a aria-label="Twitter" target="_blank" rel="noopener noreferrer nofollow">
                                 <FontAwesomeIcon icon={faTwitter} fixedWidth/>
                             </a>
                         </Link>
@@ -41,8 +41,8 @@ const About = () => {
                         </Link>
                     </li>*/}
                     <li>
-                        <Link href="https://t.me/studiolupuz" passHref>
-                            <a target="_blank" rel="noopener noreferrer nofollow">
+                        <Link  href="https://t.me/studiolupuz" passHref>
+                            <a aria-label="Telegram" target="_blank" rel="noopener noreferrer nofollow">
                                 <FontAwesomeIcon icon={faTelegramPlane} fixedWidth/>
                             </a>
                         </Link>
@@ -63,7 +63,7 @@ const About = () => {
                     </li>*/}
                     <li>
                         <Link href="https://discord.gg/7xVHHshgmp" passHref>
-                            <a target="_blank" rel="noopener noreferrer nofollow">
+                            <a aria-label="Discord" target="_blank" rel="noopener noreferrer nofollow">
                                 <FontAwesomeIcon icon={faDiscord} fixedWidth/>
                             </a>
                         </Link>
@@ -77,7 +77,7 @@ const About = () => {
                     </li>*/}
                     <li>
                         <Link href="mailto:contato@studiolupuz.com.br" passHref>
-                            <a rel="noopener noreferrer nofollow">
+                            <a aria-label="E-mail" rel="noopener noreferrer nofollow">
                                 <FontAwesomeIcon icon={faEnvelope} fixedWidth/>
                             </a>
                         </Link>

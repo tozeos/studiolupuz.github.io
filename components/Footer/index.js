@@ -11,8 +11,8 @@ const Footer = () => {
             <section className={styles.container}>
                 <div className={styles.left}>
                     <Link href="https://discord.gg/7xVHHshgmp" passHref>
-                        <a target="_blank" rel="noopener noreferrer nofollow">
-                            <Image className={styles.discord} src={discord} quality={100}/>
+                        <a aria-label="Discord Footer" target="_blank" rel="noopener noreferrer nofollow">
+                            <Image className={styles.discord} src={discord} quality={100} alt={"Discord logo"}/>
                         </a>
                     </Link>
 
@@ -27,6 +27,7 @@ const Footer = () => {
                         Designed and coded by
                         <Link href="http://tozeos.github.io" passHref>
                             <a
+                                aria-label="Tozeos' website"
                                 className={styles.highlight}
                                 target="_blank"
                                 rel="noopener noreferrer nofollow">

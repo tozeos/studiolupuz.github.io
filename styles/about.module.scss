@@ -1,78 +1,78 @@
 @import "../styles/variables";
 
 .container {
-	margin: 0 auto;
-	padding: 7rem 10rem 0rem;
-	display: flex;
-	background-color: $white;
+  margin: 0 auto;
+  padding: 7rem 10rem 0rem;
+  display: flex;
+  background-color: $white;
 
-	align-items: center;
-	justify-content: center;
-	gap: 0 10vw;
+  align-items: center;
+  justify-content: center;
+  gap: 0 10vw;
 
-	@media (max-width: 1076px) {
-		padding: 3rem;
-	}
+  @media (max-width: 1076px) {
+    padding: 3rem;
+  }
 
-	@media (max-width: 768px) {
-		flex-wrap: wrap;
-		gap: 2rem;
-		padding: 5rem;
-	}
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 5rem;
+  }
 
-	@media (max-width: 470px) {
-		padding: 2rem;
-	}
+  @media (max-width: 470px) {
+    padding: 2rem;
+  }
 }
 
 .text {
-	h1 {
-		font-size: 3.5rem;
-		padding-bottom: 1rem;
-		opacity: 0.8;
-		line-height: 100%;
+  h1 {
+    font-size: 3.5rem;
+    padding-bottom: 1rem;
+    opacity: 0.8;
+    line-height: 100%;
 
-		@media (max-width: 470px) {
-			font-size: 2.3rem;
-			margin: 0.5em 0;
-		}
-	}
+    @media (max-width: 470px) {
+      font-size: 2.3rem;
+      margin: 0.5em 0;
+    }
+  }
 
-	p {
-		margin-bottom: 1.5rem;
-		font-size: 1rem;
-		line-height: 1.5rem;
-	}
+  p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
 .lupoContainer {
-	min-width: 255px;
-	max-width: 500px;
-	margin: 0 auto;
+  min-width: 255px;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .social {
-	display: flex;
-	list-style: none;
-	gap: .5rem;
-	flex-wrap: wrap;
+  display: flex;
+  list-style: none;
+  gap: .5rem;
+  flex-wrap: wrap;
 
-	a {
-		font-size: 1.2rem;
-		color: white;
-		display: inline-block;
-		text-decoration: none;
-		padding: .5rem;
-		background-color: #242276;
-		border-radius: 5px;
-		transition: all 0.4s ease-in-out;
+  a {
+    font-size: 1.2rem;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: .5rem;
+    background-color: #242276;
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
 
-		&:hover {
-			background-color: $yellow;
-		}
-	}
+    &:hover {
+      background-color: $yellow;
+    }
+  }
 
-	@media (max-width: 470px) {
+  @media (max-width: 470px) {
 
-	}
+  }
 }

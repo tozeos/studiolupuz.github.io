@@ -69,7 +69,7 @@ export const team = [
         id: 6,
         name: "Vh",
         occupation: "Artista",
-        picture: "",
+        picture: "/team/vh.webp",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
         link: "https://twitter.com/vhleur",
@@ -196,17 +196,14 @@ export const dates = [
 export const arts = [
     {
         id: 0,
-        alt: "Arte do Lupo utilizando um notebook.",
-        credit: "@Thorkinn",
+        alt: "Axel é um jovem lobo, um dos detetives que irão investigar certos acontecimentos misteriosos que estão acontecendo na cidade.",
+        credit: "@LupuzStudio",
         origin: "twitter",
-        link: "https://lupuz.netlify.app/img/E50KUhfWYAIbW4e.jfif",
-    },
 
-    {
-        id: 1,
-        alt: "Arte do Lupo utilizando um notebook 2.",
-        credit: "@Thorkinno",
-        origin: "twittero",
-        link: "https://lupuz.netlify.app/img/E50KUhfWYAIbW4e.jfif",
+        link: "/gallery/axel.webp",
+        bgPosition: "top",
+        bgRepeat: 'none',
+        bgSize: 'cover',
+        sourceLink: "https://twitter.com/LupuzStudio/status/1452288783550930954"
     },
 ];
