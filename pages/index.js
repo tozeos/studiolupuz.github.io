@@ -11,7 +11,7 @@ export default function Home() {
 		<div>
 			<Head>
 				<title>{websiteName}</title>
-				<meta name="description" content="Poggers" />
+				<meta name="description" content="Um projeto voltado a gerar conteúdo para a comunidade furry! Um incrível universo de histórias que irá incorporar visual-novels, comics e muito mais. Venha fazer parte!" />
 				<link rel="icon" href="/favicon.png" />
 			</Head>
 			<Header />
