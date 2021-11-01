@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../../styles/header.module.scss";
-import lupuzLogo from "../../public/logo.png";
+import lupuzLogo from "../../public/logo.webp";
 
 const Header = () => {
     return (
