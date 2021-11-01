@@ -1,60 +1,60 @@
 @import "../styles/variables";
 
 .navbar {
-	background-color: $blue2;
-	z-index: 12;
-	position: sticky;
-	top: 0;
+  background-color: $blue2;
+  z-index: 12;
+  position: sticky;
+  top: 0;
 
-	ul {
-		display: flex;
-		justify-content: space-evenly;
-		width: 50%;
-		margin: 0 auto;
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
 
-		list-style: none;
-		padding: 1rem 0;
+    list-style: none;
+    padding: 1rem 0;
 
-		@media (max-width: 425px) {
-			width: 100%;
-			font-size: 0.95rem;
-		}
+    @media (max-width: 425px) {
+      width: 100%;
+      font-size: 0.95rem;
+    }
 
-		li > a {
-			text-decoration: none;
-			font-family: "Poppins", sans-serif;
-			text-transform: uppercase;
-			color: $white;
-			padding: 0.7rem 0;
-			transition: all 5ms ease-in-out;
+    li > a {
+      text-decoration: none;
+      font-family: "Poppins", sans-serif;
+      text-transform: uppercase;
+      color: $white;
+      padding: 0.7rem 0;
+      transition: all 5ms ease-in-out;
 
-			&:hover {
-				border-bottom: 5px solid $yellow;
-			}
-		}
-	}
+      &:hover {
+        border-bottom: 5px solid $yellow;
+      }
+    }
+  }
 }
 
 .header {
-	height: 500px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: $blue;
-	//background-image: url("https://source.unsplash.com/featured/?{wolf}");
-	//background-size: cover;
-	//background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $blue;
+  //background-image: url("https://source.unsplash.com/featured/?{wolf}");
+  //background-size: cover;
+  //background-position: center;
 
-	img {
-		width: 20rem;
-		cursor: pointer;
-	}
+  img {
+    width: 20rem;
+    cursor: pointer;
+  }
 
-	@media (max-width: 425px) {
-		height: 50vh;
+  @media (max-width: 425px) {
+    height: 50vh;
 
-		img {
-			width: 60vw;
-		}
-	}
+    img {
+      width: 60vw;
+    }
+  }
 }

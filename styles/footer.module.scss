@@ -1,57 +1,57 @@
 @import "../styles/variables";
 
 .container {
-	margin: 0 auto;
-	padding: 7rem 10rem;
-	display: flex;
-	background-color: $blue2;
-	color: $white;
+  margin: 0 auto;
+  padding: 7rem 10rem;
+  display: flex;
+  background-color: $blue2;
+  color: $white;
 
-	align-items: center;
-	justify-content: center;
-	gap: 0 10vw;
+  align-items: center;
+  justify-content: center;
+  gap: 0 10vw;
 
-	@media (max-width: 1076px) {
-		padding: 3rem;
-	}
+  @media (max-width: 1076px) {
+    padding: 3rem;
+  }
 
-	@media (max-width: 768px) {
-		flex-wrap: wrap;
-		gap: 2rem;
-		padding: 5rem;
-	}
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 5rem;
+  }
 
-	@media (max-width: 470px) {
-		padding: 4rem 2rem;
-		text-align: center;
+  @media (max-width: 470px) {
+    padding: 4rem 2rem;
+    text-align: center;
 
-		p {
-			font-size: 0.9rem;
-			padding-top: 0.35rem;
-		}
-	}
+    p {
+      font-size: 0.9rem;
+      padding-top: 0.35rem;
+    }
+  }
 
-	img {
-		width: 300px;
+  img {
+    width: 300px;
 
-		@media (max-width: 470px) {
-			width: 200px;
-		}
-	}
+    @media (max-width: 470px) {
+      width: 200px;
+    }
+  }
 }
 
 .left {
-	text-align: right;
+  text-align: right;
 }
 
 .highlight {
-	color: $yellow;
-	text-decoration: none;
-	font-weight: bold;
+  color: $yellow;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .version {
-	font-size: .8rem;
-	font-style: oblique;
-	opacity: .5;
+  font-size: .8rem;
+  font-style: oblique;
+  background: $blue2;
 }

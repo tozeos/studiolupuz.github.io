@@ -1,135 +1,136 @@
 @import "../styles/variables";
 
 .container {
-	margin: 0 auto;
-	padding: 5rem 10rem;
-	display: flex;
-	background-color: $white;
+  margin: 0 auto;
+  padding: 5rem 10rem;
+  display: flex;
+  background-color: $white;
 
-	align-items: stretch;
-	flex-wrap: wrap;
-	gap: 5%;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 5%;
 
-	@media (max-width: 1076px) {
-		padding: 3rem;
-	}
 
-	@media (max-width: 768px) {
-		flex-wrap: wrap;
-		gap: 2rem;
-		padding: 5rem;
-	}
+  @media (max-width: 1076px) {
+    padding: 3rem;
+  }
 
-	@media (max-width: 470px) {
-		padding: 2rem;
-	}
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 5rem;
+  }
+
+  @media (max-width: 470px) {
+    padding: 2rem;
+  }
 }
 
 .subTitle {
-	font-size: 1.8rem;
-	padding-bottom: 1rem;
-	font-weight: 700;
-	text-transform: uppercase;
-	font-family: "Poppins", sans-serif;
-	opacity: 0.9;
+  font-size: 1.8rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  opacity: 0.9;
 }
 
 .calendar {
-	min-width: 35%;
-	height: inherit;
+  min-width: 35%;
+  height: inherit;
 
-	@media (max-width: 470px) {
-		width: 100%;
-		font-size: 0.8rem;
-	}
+  @media (max-width: 470px) {
+    width: 100%;
+    font-size: 0.8rem;
+  }
 
-	@media (max-width: 768px) {
-		width: 100%;
-	}
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 
-	div {
-		cursor: pointer;
+  div {
+    cursor: pointer;
 
-		.event {
-			display: flex;
-			flex-direction: column;
-			height: 100px;
-			color: white;
-			border-bottom: 1px solid white;
-			border-top: 1px solid white;
-			border-radius: 5px;
-		}
-	}
+    .event {
+      display: flex;
+      flex-direction: column;
+      height: 100px;
+      color: white;
+      border-bottom: 1px solid white;
+      border-top: 1px solid white;
+      border-radius: 5px;
+    }
+  }
 }
 
 .date {
-	display: flex;
-	align-items: flex-start;
-	padding: 0.9rem;
-	border-radius: 5px 5px 0 0;
-	background: #161552 url("/favicon.png") no-repeat center right 15px;
-	background-size: 30px;
-	color: white;
-	font-weight: 700;
-	width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding: 0.9rem;
+  border-radius: 5px 5px 0 0;
+  background: #161552 url("/favicon.png") no-repeat center right 15px;
+  background-size: 30px;
+  color: white;
+  font-weight: 700;
+  width: 100%;
 }
 
 .dateTitle {
-	font-weight: 600;
+  font-weight: 600;
 }
 
 .dateInfo {
-	background: #242276;
-	color: white;
-	margin-bottom: 1rem;
-	padding: 0.9rem;
-	border-radius: 0 0 5px 5px;
-	transition: all 0.2s ease-in-out;
+  background: #242276;
+  color: white;
+  margin-bottom: 1rem;
+  padding: 0.9rem;
+  border-radius: 0 0 5px 5px;
+  transition: all 0.2s ease-in-out;
 
-	&:hover {
-		background-color: #37359e;
-	}
+  &:hover {
+    background-color: #37359e;
+  }
 }
 
 
 // Swiper
 
 .swipercontainer {
-	width: 60%;
+  width: 60%;
 
-	@media (max-width: 768px) {
-		width: 100%;
-	}
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 }
 
 .mySwiper {
-	border-radius: 5px;
-	border: 2px solid $blue;
-	box-sizing: content-box;
-	background-color: $blue;
-	cursor: grab;
+  border-radius: 5px;
+  border: 2px solid $blue;
+  box-sizing: content-box;
+  background-color: $blue;
+  cursor: grab;
 }
 
 .artBackground {
-	background-size: cover;
-	background-position: center;
-	height: 60vh;
+  background-size: cover;
+  background-position: top;
+  height: 60vh;
 
-	@media (max-width: 320px) {
-		height: 30vh;
-	}
+  @media (max-width: 320px) {
+    height: 30vh;
+  }
 
-	@media (max-width: 425px) {
-		height: 40vh;
-	}
+  @media (max-width: 425px) {
+    height: 40vh;
+  }
 }
 
 .credit {
-	background-color: $blue;
-	padding: 0.5rem;
-	color: white;
+  background-color: $blue;
+  padding: 0.5rem;
+  color: white;
 
-	@media (max-width: 425px) {
-		font-size: 0.9rem;
-	}
+  @media (max-width: 425px) {
+    font-size: 0.9rem;
+  }
 }
