@@ -127,16 +127,6 @@ export const team = [
 
     {
         id: 12,
-        name: "YiuRyem",
-        occupation: "Suporte",
-        picture: "",
-        socialName: "Twitter",
-        socialIcon: "/twitter.svg",
-        link: "https://twitter.com/",
-    },
-
-    {
-        id: 13,
         name: "Luke",
         occupation: "Suporte",
         picture: "/team/luke.webp",
@@ -146,7 +136,7 @@ export const team = [
     },
 
     {
-        id: 14,
+        id: 13,
         name: "Hirazuky",
         occupation: "Tradução",
         picture: "/team/hirazuky.webp",
@@ -156,7 +146,7 @@ export const team = [
     },
 
     {
-        id: 15,
+        id: 14,
         name: "ExCrYsYs",
         occupation: "Arte",
         picture: "",
