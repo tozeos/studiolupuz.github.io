@@ -62,7 +62,7 @@ export const team = [
         picture: "/team/ed.webp",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
-        link: "https://twitter.com/",
+        link: "https://twitter.com/Furr_Ed",
     },
 
     {

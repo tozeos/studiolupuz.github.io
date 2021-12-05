@@ -92,14 +92,22 @@
   }
 }
 
-
-// Swiper
-
-.swipercontainer {
+.widgets {
   width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  div {
+    width: 370px;
+  }
 
   @media (max-width: 768px) {
     width: 100%;
+
+    div {
+
+    }
   }
 }
 
@@ -133,4 +141,17 @@
   @media (max-width: 425px) {
     font-size: 0.9rem;
   }
+}
+
+.playlist {
+  background: $blue;
+  color: $white;
+  padding: 1rem;
+  border-radius: .3rem;
+  margin-bottom: 1rem;
+
+  h3 {
+    font-family: "Poppins", sans-serif;
+  }
+
 }

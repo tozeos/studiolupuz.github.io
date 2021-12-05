@@ -1,0 +1,120 @@
+@import "../styles/variables";
+
+.container {
+  margin: 0 auto;
+  padding: 7rem 10rem;
+  display: flex;
+  flex-direction: column;
+  background-color: $blue;
+
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 1076px) {
+    padding: 3rem;
+  }
+
+  @media (max-width: 470px) {
+    padding: 2rem;
+  }
+
+  .subTitle {
+    font-size: 1.8rem;
+    color: $white;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 5rem;
+
+    @media (max-width: 470px) {
+      font-size: 2.3rem;
+    }
+
+    &::after {
+      display: block;
+      content: "";
+      background-color: $yellow;
+      width: 70%;
+      height: 3px;
+      margin: 0 auto;
+      border-radius: 1rem;
+    }
+  }
+}
+
+.character {
+  background: white;
+
+  img {
+    width: 300px;
+  }
+}
+
+.info {
+  color: white;
+  display: flex;
+  gap: 2rem;
+
+  @media (max-width: 740px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  h4 {
+    padding: 1rem 0;
+    font-weight: 600;
+  }
+}
+
+.name {
+  color: $yellow;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+// Características
+
+.caracteristicas {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 1rem;
+  font-size: 1.2rem;
+
+  li {
+    background-color: $blue2;
+    color: $yellow;
+    font-weight: 600;
+    padding: .6rem;
+    border-radius: .2rem;
+  }
+}
+
+.characterlist {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.others {
+  display: flex;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  background-color: $yellow;
+  border-radius: .2rem;
+
+  &:hover {
+    background-color: $blue2;
+  }
+}
