@@ -148,7 +148,7 @@ export const team = [
     {
         id: 14,
         name: "ExCrYsYs",
-        occupation: "Arte",
+        occupation: "Artista",
         picture: "",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",

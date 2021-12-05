@@ -10,7 +10,7 @@ const Team = () => {
     return (
         <>
             <section className={styles.container}>
-                <h2 id={'time'} className={styles.subTitle}>Nosso time</h2>
+                <h2 id={'time'} className={styles.subTitle}>Nossa equipe</h2>
                 <div className={styles.teamContainer}>
                         {team.map((member) => (
                             <section key={member.id}>
