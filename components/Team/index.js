@@ -9,13 +9,8 @@ import { faTwitter} from "@fortawesome/free-brands-svg-icons";
 const Team = () => {
     return (
         <>
-<<<<<<< HEAD
-            <section id={'time'} className={styles.container}>
-                <h2 className={styles.subTitle}>Nosso time</h2>
-=======
             <section className={styles.container}>
                 <h2 id={'time'} className={styles.subTitle}>Nossa equipe</h2>
->>>>>>> e8c140b86bba5bcaa0c4d72b63ce20173a5dcb69
                 <div className={styles.teamContainer}>
                         {team.map((member) => (
                             <section key={member.id}>

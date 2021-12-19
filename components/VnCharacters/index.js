@@ -69,7 +69,6 @@ const VnCharacters = () => {
 }
 
 export default VnCharacters;
-<<<<<<< HEAD
 
 const characterDetails = [
     {
@@ -101,5 +100,3 @@ const characterDetails = [
         traits: ["Cringe", "Helper", "Selfish"],
     },
 ]
-=======
->>>>>>> e8c140b86bba5bcaa0c4d72b63ce20173a5dcb69
