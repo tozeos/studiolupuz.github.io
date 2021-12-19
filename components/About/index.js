@@ -18,8 +18,8 @@ import lupo from "../../public/lupo.webp";
 
 const About = () => {
     return (
-        <section className={styles.container}>
-            <div id={"sobre"} className={styles.text}>
+        <section id={"sobre"} className={styles.container}>
+            <div className={styles.text}>
                 <h1>Sobre o {websiteName}</h1>
                 <p>
                     {websiteAbout}
