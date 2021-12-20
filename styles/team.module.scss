@@ -21,7 +21,7 @@
 
   .subTitle {
     font-size: 1.8rem;
-    color: $white;
+    color: $textColor;
     font-weight: 700;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
@@ -69,7 +69,7 @@
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    background-color: #16165d;
+    background-color: $hover;
   }
 
   .profile {
@@ -104,7 +104,7 @@
 
 .socialIcon {
   font-size: 1.2rem;
-  color: $white;
+  color: $textColor;
 }
 
 // teamcontainer substitui essa porcaria aqui

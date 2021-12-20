@@ -20,7 +20,7 @@
 
   .subTitle {
     font-size: 1.8rem;
-    color: $white;
+    color: $textColor;
     font-weight: 700;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
@@ -43,17 +43,13 @@
 }
 
 .character {
-  background: white;
-
-  img {
-    width: 300px;
-  }
+  align-self: center;
 }
 
 .info {
   color: white;
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
 
   @media (max-width: 740px) {
     flex-wrap: wrap;
@@ -65,18 +61,24 @@
 .bio {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 
   h4 {
-    padding: 1rem 0;
+    padding: 2rem 0 1rem 0;
     font-weight: 600;
   }
+}
+
+.biotext {
+  padding-top: 1rem;
+  font-style: italic;
 }
 
 .name {
   color: $yellow;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 // Características
@@ -85,15 +87,20 @@
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  gap: 1rem;
-  font-size: 1.2rem;
+  gap: .3rem;
+  font-size: .8rem;
 
   li {
     background-color: $blue2;
     color: $yellow;
     font-weight: 600;
-    padding: .6rem;
+    padding: .5rem;
     border-radius: .2rem;
+
+    &:hover {
+      background-color: $hover;
+
+    }
   }
 }
 
@@ -109,10 +116,11 @@
 }
 
 .card {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   background-color: $yellow;
   border-radius: .2rem;
+  cursor: pointer;
 
   &:hover {
     background-color: $blue2;

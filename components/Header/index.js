@@ -17,6 +17,13 @@ const Header = () => {
                         </Link>
                     </li>
                     <li>
+                        <Link href="#personagens" passHref>
+                            <a rel="noopener noreferrer nofollow">
+                                Personagens
+                            </a>
+                        </Link>
+                    </li>
+                    <li>
                         <Link href="#calendario" passHref>
                             <a rel="noopener noreferrer nofollow">
                                 Calendário
