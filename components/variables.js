@@ -25,15 +25,17 @@ export const team = [
         link: "https://twitter.com/ogamikuro",
     },
 
+    /*
     {
-        id: 2,
-        name: "Red",
-        occupation: "Escritor",
-        picture: "/team/red.webp",
-        socialName: "Twitter",
-        socialIcon: "/twitter.svg",
-        link: "https://twitter.com/",
-    },
+            id: 2,
+            name: "Red",
+            occupation: "Escritor",
+            picture: "/team/red.webp",
+            socialName: "Twitter",
+            socialIcon: "/twitter.svg",
+            link: "https://twitter.com/",
+      },
+     */
 
     {
         id: 3,
