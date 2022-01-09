@@ -8,7 +8,7 @@ export const team = [
     {
         id: 0,
         name: "Thorkinn",
-        occupation: "Artista",
+        occupation: "Artista e Escritor",
         picture: "/team/thorkinn.webp",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
@@ -25,15 +25,17 @@ export const team = [
         link: "https://twitter.com/ogamikuro",
     },
 
+    /*
     {
-        id: 2,
-        name: "Red",
-        occupation: "Escritor",
-        picture: "/team/red.webp",
-        socialName: "Twitter",
-        socialIcon: "/twitter.svg",
-        link: "https://twitter.com/",
-    },
+            id: 2,
+            name: "Red",
+            occupation: "Escritor",
+            picture: "/team/red.webp",
+            socialName: "Twitter",
+            socialIcon: "/twitter.svg",
+            link: "https://twitter.com/",
+      },
+     */
 
     {
         id: 3,
@@ -48,7 +50,7 @@ export const team = [
     {
         id: 4,
         name: "Vini",
-        occupation: "Artista e programador",
+        occupation: "Artista e Programador",
         picture: "/team/vini.webp",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
@@ -119,7 +121,7 @@ export const team = [
         id: 11,
         name: "Dani",
         occupation: "Escritor",
-        picture: "",
+        picture: "/team/dani.webp",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
         link: "https://twitter.com/",
@@ -148,8 +150,8 @@ export const team = [
     {
         id: 14,
         name: "ExCrYsYs",
-        occupation: "Artista",
-        picture: "",
+        occupation: "Artista e Escritor",
+        picture: "/team/renan.webp",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
         link: "https://twitter.com/",
