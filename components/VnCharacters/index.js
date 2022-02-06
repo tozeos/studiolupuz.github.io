@@ -16,7 +16,7 @@ const VnCharacters = () => {
                 <h2 className={styles.subTitle}>Personagens</h2>
                 <article className={styles.info}>
                     <div className={styles.character}>
-                        <Image alt={"imagem aleatória"} src="/gallery/axel.webp" width={384} height={467}
+                        <Image alt={"imagem aleatória"} src="/gallery/axel.webp" width={364} height={447}
                                layout={"fixed"}/>
                     </div>
                     <div className={styles.bio}>

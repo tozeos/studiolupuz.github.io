@@ -94,6 +94,10 @@
 
   div {
     width: 370px;
+
+    @media (max-width: 375px) {
+      width: 100%;
+    }
   }
 
   iframe {
@@ -115,6 +119,7 @@
   padding: 1rem;
   border-radius: .3rem;
   margin-bottom: 1rem;
+  text-decoration: none;
 
   h3 {
     font-family: "Poppins", sans-serif;

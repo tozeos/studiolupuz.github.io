@@ -1,9 +1,7 @@
 import styles from "../../styles/calendarart.module.scss";
-import {dates} from "../variables";
-import SwiperCore, {Scrollbar} from "swiper/core";
-
-
-SwiperCore.use([Scrollbar]);
+import React from "react";
+import {dates, playlists} from "../variables";
+import Link from 'next/link';
 
 const CalendarAndWidgets = () => {
     return (
@@ -25,34 +23,22 @@ const CalendarAndWidgets = () => {
                 <div className={styles.widgets}>
                     <div>
                         <h2 className={styles.subTitle}>Discord</h2>
-                        <iframe src="https://discord.com/widget?id=831177746053988362&theme=dark" width="100%"
-                                height="500" allowtransparency="false" frameBorder="0"
+                        <iframe src="https://discord.com/widget?id=831177746053988362&theme=dark"
+                                height="500" width="100%" allowtransparency="false" frameBorder="0"
                                 sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
                         </iframe>
                     </div>
                 </div>
                 <div className={styles.widgets}>
                     <h2 className={styles.subTitle}>Spotify playlists</h2>
-                    <div className={styles.playlist}>
-                        <h3>Playlist name</h3>
-                        <h4>Playlist description</h4>
-                    </div>
-                    <div className={styles.playlist}>
-                        <h3>Playlist name</h3>
-                        <h4>Playlist description</h4>
-                    </div>
-                    <div className={styles.playlist}>
-                        <h3>Playlist name</h3>
-                        <h4>Playlist description</h4>
-                    </div>
-                    <div className={styles.playlist}>
-                        <h3>Playlist name</h3>
-                        <h4>Playlist description</h4>
-                    </div>
-                    <div className={styles.playlist}>
-                        <h3>Playlist name</h3>
-                        <h4>Playlist description</h4>
-                    </div>
+                    {React.Children.toArray(playlists.map((playlist) => (
+                        <Link href={playlist.link} passhref>
+                            <a className={styles.playlist} target="_blank" rel="noopener noreferrer nofollow">
+                                <h3>{playlist.name}</h3>
+                                <h4>{playlist.desc}</h4>
+                            </a>
+                        </Link>
+                    )))}
                 </div>
             </section>
         </>
