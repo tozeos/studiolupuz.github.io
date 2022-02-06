@@ -4,11 +4,11 @@ export const websiteAbout = "O projeto Lupuz Studio foi criado com o intuito de 
 export const defaultpfp =
     "https://i.pinimg.com/474x/9b/47/a0/9b47a023caf29f113237d61170f34ad9.jpg";
 
-export const team = [
+export let team = [
     {
         id: 0,
         name: "Thorkinn",
-        occupation: "Artista e Escritor",
+        occupations: ["Arte", "História"],
         picture: "/team/thorkinn.webp",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
@@ -18,29 +18,17 @@ export const team = [
     {
         id: 1,
         name: "Kuro",
-        occupation: "Escritor",
+        occupations: ["História"],
         picture: "/team/kuro.webp",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
         link: "https://twitter.com/ogamikuro",
     },
 
-    /*
-    {
-            id: 2,
-            name: "Red",
-            occupation: "Escritor",
-            picture: "/team/red.webp",
-            socialName: "Twitter",
-            socialIcon: "/twitter.svg",
-            link: "https://twitter.com/",
-      },
-     */
-
     {
         id: 3,
         name: "tozeos",
-        occupation: "Programador",
+        occupations: ["Programação"],
         picture: "/team/tozeos.webp",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
@@ -50,7 +38,7 @@ export const team = [
     {
         id: 4,
         name: "Vini",
-        occupation: "Artista e Programador",
+        occupations: ["Arte", "Programação"],
         picture: "/team/vini.webp",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
@@ -60,7 +48,7 @@ export const team = [
     {
         id: 5,
         name: "Ed",
-        occupation: "Artista",
+        occupations: ["Arte"],
         picture: "/team/ed.webp",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
@@ -70,7 +58,7 @@ export const team = [
     {
         id: 6,
         name: "Vh",
-        occupation: "Artista",
+        occupations: ["Arte"],
         picture: "/team/vh.webp",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
@@ -80,7 +68,7 @@ export const team = [
     {
         id: 7,
         name: "Fossilus",
-        occupation: "Artista",
+        occupations: ["Arte"],
         picture: "",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
@@ -90,7 +78,7 @@ export const team = [
     {
         id: 8,
         name: "Donovan",
-        occupation: "Artista",
+        occupations: ["Arte"],
         picture: "/team/donovan.webp",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
@@ -100,7 +88,7 @@ export const team = [
     {
         id: 9,
         name: "Hati",
-        occupation: "Programador",
+        occupations: ["Programação"],
         picture: "/team/hati.webp",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
@@ -110,7 +98,7 @@ export const team = [
     {
         id: 10,
         name: "Chokit",
-        occupation: "Música",
+        occupations: ["Música"],
         picture: "",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
@@ -120,7 +108,7 @@ export const team = [
     {
         id: 11,
         name: "Dani",
-        occupation: "Escritor",
+        occupations: ["História"],
         picture: "/team/dani.webp",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
@@ -130,7 +118,7 @@ export const team = [
     {
         id: 12,
         name: "Luke",
-        occupation: "Suporte",
+        occupations: ["Moderação"],
         picture: "/team/luke.webp",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
@@ -140,7 +128,7 @@ export const team = [
     {
         id: 13,
         name: "Hirazuky",
-        occupation: "Tradução",
+        occupations: ["Tradução"],
         picture: "/team/hirazuky.webp",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
@@ -150,7 +138,7 @@ export const team = [
     {
         id: 14,
         name: "ExCrYsYs",
-        occupation: "Artista e Escritor",
+        occupations: ["Arte", "História"],
         picture: "/team/renan.webp",
         socialName: "Twitter",
         socialIcon: "/twitter.svg",
@@ -185,17 +173,25 @@ export const dates = [
     },
 ];
 
-export const arts = [
+export const playlists = [
     {
-        id: 0,
-        alt: "Axel é um jovem lobo, um dos detetives que irão investigar certos acontecimentos misteriosos que estão acontecendo na cidade.",
-        credit: "@LupuzStudio",
-        origin: "twitter",
-
-        link: "/gallery/axel.webp",
-        bgPosition: "top",
-        bgRepeat: 'none',
-        bgSize: 'cover',
-        sourceLink: "https://twitter.com/LupuzStudio/status/1452288783550930954"
+        link: 'https://open.spotify.com/playlist/0fFskdbD0wHKY4UqFyBecp?si=9aafbe47440c4a67',
+        name: `Lupuz's Playlist`,
+        desc: 'Playlist geral da Lupuz.',
+    },
+    {
+        link: 'https://open.spotify.com/playlist/0fFskdbD0wHKY4UqFyBecp?si=9aafbe47440c4a67',
+        name: `Lupuz's Collab Geral`,
+        desc: 'Playlist geral da Lupuz, todos podem colaborar.',
+    },
+    {
+        link: 'https://open.spotify.com/playlist/0fFskdbD0wHKY4UqFyBecp?si=9aafbe47440c4a67',
+        name: `Lupuz's Collab: Rock`,
+        desc: 'Playlist de Rock da Lupuz, todos podem colaborar.',
+    },
+    {
+        link: 'https://open.spotify.com/playlist/0fFskdbD0wHKY4UqFyBecp?si=9aafbe47440c4a67',
+        name: `Lupuz's Collab: Pop`,
+        desc: 'Playlist de Pop da Lupuz, todos podem colaborar.',
     },
 ];
