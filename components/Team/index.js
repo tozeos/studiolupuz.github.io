@@ -24,8 +24,8 @@ const Team = () => {
             <section className={styles.container}>
                 <h2 id={'time'} className={styles.subTitle}>Nossa equipe</h2>
                 <div className={styles.teamContainer}>
-                    {React.Children.toArray(team.map((member) => (
-                        <section>
+                    {team.map((member, i) => (
+                        <section key={i}>
                             <div className={styles.member}>
                                 <div
                                     className={styles.profile}
@@ -37,9 +37,9 @@ const Team = () => {
                                 />
                                 <div className={styles.memberInfo}>
                                     <p className={styles.text}>{member.name}</p>
-                                    {React.Children.toArray(member.occupations.map((occupation) => (
-                                        <span className={styles.occupation}>{occupation}</span>
-                                    )))}
+                                    {member.occupations.map((occupation, i) => (
+                                        <span className={styles.occupation} key={i}>{occupation}</span>
+                                    ))}
                                     <br/>
                                     <Link href={member.link} passHref>
                                         <a target="_blank" rel="noopener noreferrer nofollow">
@@ -49,7 +49,7 @@ const Team = () => {
                                 </div>
                             </div>
                         </section>
-                    )))}
+                    ))}
                 </div>
             </section>
         </>
