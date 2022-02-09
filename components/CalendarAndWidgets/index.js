@@ -31,14 +31,14 @@ const CalendarAndWidgets = () => {
                 </div>
                 <div className={styles.widgets}>
                     <h2 className={styles.subTitle}>Spotify playlists</h2>
-                    {React.Children.toArray(playlists.map((playlist) => (
-                        <Link href={playlist.link} passhref>
+                    {playlists.map((playlist, i) => (
+                        <Link key={i} href={playlist.link} passhref>
                             <a className={styles.playlist} target="_blank" rel="noopener noreferrer nofollow">
                                 <h3>{playlist.name}</h3>
                                 <h4>{playlist.desc}</h4>
                             </a>
                         </Link>
-                    )))}
+                    ))}
                 </div>
             </section>
         </>
